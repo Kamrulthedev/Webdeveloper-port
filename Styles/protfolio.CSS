@@ -15,6 +15,16 @@ body{
     padding: 15px 35px;
 }
 
+.section-title{
+    color: #181818;
+    text-align: center;
+    /* font-family: open Sans; */
+    font-size: 35px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+}
+
 
 
 /* nav related styles */
@@ -48,12 +58,41 @@ color: #474747;
 /* header related styles  */
 .header{
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:bottom right ;
 }
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
+    justify-content: space-between;
 }
 .banner{
+    display: flex;
     width: 100px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+
+}
+.banner-title{
+    font size :85px;
+
+
+    font-weight:700;
+}
+/* main section stylss */
+
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+}.section-description{
+    color: #757575;
+    text-align: center;
+    /* font-family: Opan Sans; */
+    font-size: 18px;
 }
